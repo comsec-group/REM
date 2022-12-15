@@ -1,0 +1,13 @@
+Version 4
+SymbolType BLOCK
+RECTANGLE Normal -64 -40 16 0
+WINDOW 0 -25 -40 Bottom 2
+PIN -64 -16 LEFT 8
+PINATTR PinName SWL
+PINATTR SpiceOrder 1
+PIN 16 -16 RIGHT 8
+PINATTR PinName B
+PINATTR SpiceOrder 2
+PIN -64 -32 LEFT 8
+PINATTR PinName Cell
+PINATTR SpiceOrder 3
