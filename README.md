@@ -3,9 +3,10 @@
 This repository provides the DRAM model used in the paper _[REGA: Scalable Rowhammer Mitigation with
 Refresh-Generating Activations](https://comsec.ethz.ch/wp-content/files/rega\_sp23.pdf)_ that is to appear in the IEEE conference Security & Privacy (S&P) 2023.
 
+REM provides a reliable DRAM model to simulate, among the others: sense amplifiers, bitline loads, wordline rising time. The model is based on real-device values.
 ## Requirements
 
-To simulate REM you will need [LTSpice](https://www.analog.com/en/design-center/design-tools-and-calculators/ltspice-simulator.html) and the transistor model from [PTM](https://ptm.asu.edu/) (filename: _transistor_model.pm_).
+To simulate REM you will need [LTSpice](https://www.analog.com/en/design-center/design-tools-and-calculators/ltspice-simulator.html) and the transistor model used and imported: [22nm PTM HP, from PTM](https://ptm.asu.edu/modelcard/HP/22nm_HP.pm). 
 
 ## Topology
 REM includes models to simulate:
