@@ -6,7 +6,10 @@ Refresh-Generating Activations](https://comsec.ethz.ch/wp-content/files/rega\_sp
 REM provides a reliable DRAM model to simulate, among the others: sense amplifiers, bitline loads, wordline rising time. The model is based on real-device values.
 ## Requirements
 
-To simulate REM you will need [LTSpice](https://www.analog.com/en/design-center/design-tools-and-calculators/ltspice-simulator.html) and the transistor model used and imported: [22nm PTM HP, from PTM](https://ptm.asu.edu/modelcard/HP/22nm_HP.pm). 
+To simulate REM you will need [LTSpice](https://www.analog.com/en/design-center/design-tools-and-calculators/ltspice-simulator.html) and the transistor models used and imported: [22nm PTM HP](https://ptm.asu.edu/modelcard/HP/22nm_HP.pm) and [22nm PTM LP](https://ptm.asu.edu/modelcard/LP/22nm_LP.pm). 
+
+The lp nmos file needs to edited and internally renamed to:
+> .model  nmoslp  nmos  level = 54
 
 ## Topology
 REM includes models to simulate:
