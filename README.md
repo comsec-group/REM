@@ -45,13 +45,13 @@ The file REM.asc already contains timing for a basic row activation. This can be
 To cite the REGA, please use the following BibTeX entry:
 
 ```
-@inproceedings{marazzi2023rega,
+@inproceedings{marazzi2022rega,
   title={REGA: Scalable Rowhammer Mitigation with Refresh-Generating Activations},
   author={Marazzi, Michele and Solt, Flavien and Jattke, Patrick and Takashi, Kubo and Razavi, Kaveh},
   booktitle={2023 IEEE Symposium on Security and Privacy (SP)},
-  pages={},
-  year={2023},
-  organization={IEEE}
+  pages={2039--2056},
+  year={2022},
+  organization={IEEE Computer Society}
 }
 ```
 
